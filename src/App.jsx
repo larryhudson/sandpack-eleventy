@@ -39,6 +39,8 @@ layout: layout.njk
     <h1>Sandpack + Eleventy</h1>
     <p>This is an attempt to make CodeSandbox's <a href="https://sandpack.codesandbox.io/">Sandpack</a> work with <a href="https://www.11ty.dev/">Eleventy</a>.</p>
     <p>It mostly works, but the automatic reloading doesn't work. You need to click the first 'refresh' button to rerun the build command to see the preview update.</p>
+<p>You can <a href="https://github.com/larryhudson/sandpack-eleventy">find the source code on GitHub</a>.</p>
+
     <SandpackProvider
     files={files} 
     theme="light" 
